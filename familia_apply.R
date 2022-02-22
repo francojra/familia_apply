@@ -29,4 +29,5 @@ starwars %>%
 
 # Função tapply ----------------------------------------------------------------------------------------------------------------------------
 
-tapply()
+tapply(starwars$height, starwars$eye_color, 
+       FUN = mean, na.rm = T)
