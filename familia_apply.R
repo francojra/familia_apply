@@ -4,6 +4,16 @@
 # Autoria do script: Jeanne Franco ---------------------------------------------------------------------------------------------------------
 # Data: 21/02/22 ---------------------------------------------------------------------------------------------------------------------------
 
+# Sobre a família Apply --------------------------------------------------------------------------------------------------------------------
+
+## O grupo de funções da família apply pertence nativamente ao R
+## (pacote base).
+
+## Funções: apply, sapply, tapply, mapply, lapply, vapply, rapply.
+
+## Essas funções não surgiram para substituir os loops convencionais
+## e sim, como uma alternativa adicional para análises mais complexas.
+
 # Carregar dados ---------------------------------------------------------------------------------------------------------------------------
 
 library(tidyverse)
