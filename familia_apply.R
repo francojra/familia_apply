@@ -14,3 +14,19 @@ starwars
 starwars %>%
   select(height, mass, birth_year) %>%
   apply(MARGIN = 2, FUN = sum, na.rm = T)
+
+# Função lapply ----------------------------------------------------------------------------------------------------------------------------
+
+starwars %>%
+  select(height, mass, birth_year) %>%
+  lapply(MARGIN = 2, FUN = mean, na.rm = T)
+
+# Função sapply ----------------------------------------------------------------------------------------------------------------------------
+
+starwars %>%
+  select(height, mass, birth_year) %>%
+  sapply(MARGIN = 2, FUN = median, na.rm = T)
+
+# Função tapply ----------------------------------------------------------------------------------------------------------------------------
+
+tapply()
